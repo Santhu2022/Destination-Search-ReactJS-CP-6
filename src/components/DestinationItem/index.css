@@ -1,0 +1,18 @@
+.destination-item {
+  padding: 10px;
+  margin: 15px;
+  width: 220px;
+  /* border: 1px solid black; */
+}
+
+.destination-image {
+  width: 200px;
+  margin-bottom: 10px;
+}
+.destination-name {
+  margin-top: 0;
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #000000;
+  font-weight: 700;
+}

@@ -1,0 +1,67 @@
+.main-bg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+}
+.app-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 80%;
+  /* border: 1px solid black; */
+}
+.app-heading {
+  font-family: 'Roboto';
+  color: #252627;
+  font-weight: 700;
+  font-size: 38px;
+  text-align: center;
+  /* border: 1px solid black; */
+}
+.search-box {
+  background-color: #f1f5f9;
+  display: flex;
+  align-items: center;
+  padding: 8px 20px;
+  border-radius: 5px;
+  /* border: 1px solid black; */
+}
+@media screen and (min-width: 768px) {
+  .app-heading {
+    align-self: flex-start;
+    margin-left: 25px;
+    text-align: left;
+  }
+  .search-box {
+    align-self: flex-start;
+    margin-left: 25px;    
+  }
+}
+input {
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
+.search-icon {
+  width: 20px;
+}
+
+.destinations-list-container {
+  list-style-type: none;
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  overflow-y: scroll;
+  /* border: 1px solid black; */
+}
+
+@media screen and (min-width: 768px) {
+  .destinations-list-container {
+    justify-content: flex-start;
+    align-self: stretch;
+  }
+}
